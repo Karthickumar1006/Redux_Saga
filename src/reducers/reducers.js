@@ -19,7 +19,6 @@ switch (action.type) {
           loading: true,
         };
       case 'FETCH_SUCCEEDED':
-        console.log("FETCH_INFO_SUCCESS",action);
         return {
           ...state,
           loading: false,

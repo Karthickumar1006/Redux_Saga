@@ -23,7 +23,6 @@ function fetchAirportDetailsApi() {
 function* airpotDetailsSagaData() {
     try {
         const data = yield call(fetchAirportDetailsApi);
-        console.log("Full data===>", data);
         // var data = yield fetch("https://dev-1o39o65bjej9342.api.raw-labs.com/airportDetails")
         // data = yield data.json()
         // console.log("Full data===>",data)
